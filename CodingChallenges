@@ -1,0 +1,17 @@
+//This function takes string then reverses it.   JS270421
+
+console.log(reverseString("hi there i am a string reversed; however, i do not have the same memory"));
+
+
+function reverseString(aString) {
+  let myArr = [];
+  let newWord = "";
+  //start at last char and loop back to beggining
+  for(let i = aString.length - 1; i > 0; i--) {
+    newWord += aString[i - 1];
+  }
+  return newWord;
+}
+
+
+____________________________________________________________________________________________________________________________________________________________________
